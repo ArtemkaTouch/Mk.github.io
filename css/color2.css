@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document 
+Author Name: Saptarang
+Author URI: http://www.saptarang.org
+Themeforest: http://themeforest.net/user/saptarang?ref=saptarang
+Creation Date: 10nd April, 2014
+Description: A default stylesheet for Professional Photography Landing Page, Designed & Developed By Saptarang.
+*/
+/* ======================= */
+/* ======== Font ========= */
+/* ======================= */
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-family: 'Roboto', Open sans, Arial;
+}
+h1, h2, h3, h4, h5, h6, .carousel-indicators li {
+	font-family: 'Roboto Condensed', Roboto, Arial;
+}
+/* ======================= */
+/* ======= Color1 ======== */
+/* ======================= */
+h2 span, h4, h5, #quotes h1 span, .caption .btn:hover i, .contactInfo p:hover i {
+	color: #a5db32 !important;
+}
+.whatWeDo {
+	border-right: 10px solid #a5db32;
+}
+input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, textarea:focus, input[type=number]:focus {
+	border: 1px solid #a5db32 !important;
+	-webkit-box-shadow: inset 8px 0 0 0 #a5db32 !important;
+	-moz-box-shadow: inset 8px 0 0 0 #a5db32 !important;
+	box-shadow: inset 8px 0 0 0 #a5db32 !important;
+}
+/* ======================= */
+/* == Background Color1 == */
+/* ======================= */
+#portfolio1 .galimg.img a .link, .btn-default, .top {
+	background-color: #a5db32 !important;
+}
+.btn-default:hover {
+	background-color: #99cf24 !important;  /* Darker tone of Color 1 */
+}
+/* ======================= */
+/* ======= Color2 ======== */
+/* ======================= */
+h1 span, h1 strong, h3, a, .navigation nav ul li a:hover, .caption h2 strong, .caption .btn i, .navigation nav ul li.active a, .whatWeDo li span, .carousel-indicators li:hover, .carousel-indicators .active, .carousel-indicators .pull-left span, #copyright p a:hover strong, #copyright p strong, a.logo h5 span {
+	color: #ff6a00 !important;
+}
+/* ======================= */
+/* == Background Color2 == */
+/* ======================= */
+#about, #portfolio2 .galimg.video a .link, .btn-primary, .carousel-control:hover i, .carousel-control i {
+	background-color: #ff6a00 !important;
+}
+
+/* Darker tone of Color 2 */
+.btn.btn-primary:hover {
+	background-color: #e65f00 !important;
+}
+/* ======================= */
+/* ======= Color3 ======== */
+/* ======================= */
+h1, h2, h6, .navigation nav ul li a, a:hover, .contactInfo p:hover, #copyright p, #copyright p a strong, #about h1 span, a.logo h5 {
+	color: #3c3b3d !important;
+}
+/* ======================= */
+/* == Background Color3 == */
+/* ======================= */
+#quotes, .caption .btn:hover, .caption .btn {
+	background-color: #3c3b3d !important;
+}
+
+/* Lighter tone of Color 3 */
+.caption .btn:hover {
+	background-color: #49484a !important;
+}
+
+/* USE RGBA values of Color 3 */
+#quotes .boxBg {
+	background-color: rgba(60, 59, 61, 0.7);
+}
+#stat .boxBg {
+	background-color: rgba(60, 59, 61, 0.3);
+}
+/* ======================= */
+/* ======= Color4 ======== */
+/* ======================= */
+h3 span, h4 span, h5 span, .caption h2 span {
+	color: #888888 !important;
+}
